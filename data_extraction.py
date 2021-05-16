@@ -315,7 +315,7 @@ for k in innings_2:
 t=['innings','over','ball','bowler_name','batsman_name','run_scored','is_wide','ball_speed','ball_line','ball_length','is_wicket']
 
 
-with open('file.csv', 'w', newline='') as f:
+with open('ipl_dataset.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(t)
     writer.writerows(innings_1)
